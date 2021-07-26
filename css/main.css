@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar {
+  grid-area: sidebar;
+  background: #b1b3b7;
+  height: 100%;
+  min-height: 85vh;
+}
+.sidebar ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+.contentBox {
+  grid-area: contentBox;
+  position: relative;
+  height: 99%;
+}
+
+.header {
+  grid-area: header;
+}
+.header a {
+  color: #fff;
+  text-decoration: auto;
+}
+.footer {
+  grid-area: footer;
+  text-align: center;
+}
