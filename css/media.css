@@ -1,0 +1,23 @@
+@media screen and (max-width: 699px) {
+    .blog-box {
+        min-width: 50% !important;
+        max-width: 100% !important;
+    }
+
+    .wrapper {
+        grid-template-columns: auto !important;
+        grid-template-areas:
+            "header "
+            "contentBox "
+            "sidebar "
+            "footer" !important;
+    
+    }
+    header > div {
+        font-size: 80%;
+    }
+
+    .blog img {
+        max-height: 100px !important;
+    }
+}
