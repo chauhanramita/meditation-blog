@@ -1,6 +1,6 @@
 @media screen and (max-width: 699px) {
     .blog-box {
-        min-width: 50% !important;
+        min-width: 90% !important;
         max-width: 100% !important;
     }
 
@@ -19,5 +19,8 @@
 
     .blog img {
         max-height: 100px !important;
+    }
+    .box.sidebar {
+        min-height: max-content !important;
     }
 }
